@@ -1,0 +1,105 @@
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+#header, #title{
+    background-color: #0B27FA;
+    color: white;
+}
+
+h2{
+    max-width: 544px;
+    font-size: 40;
+}
+
+.bluetext{
+    color: #0B27FA;
+}
+
+label{
+    font-weight: bold;
+}
+
+.container-fluid {
+    padding: 50px 159px;
+}
+
+p{
+    line-height: 32px;
+    font-size: 18;
+    color: #444548;    
+}
+
+.btn{
+    float: right;
+    width: 207px;
+    height: 40px;
+    background-color: #00BA91;
+    color: #021B51;
+    font-size:14;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#btn2{
+    margin-top: 0;
+    float: none;
+    width: 177px;  
+}
+
+form{
+    margin-top: 20px
+}
+
+#linkedin{
+    margin-left: 50%;
+}
+
+#footer{
+    margin-top: -12%;
+    color: #021B51;
+}
+
+@media (max-width: 767.98px) {
+    .container-fluid {
+        padding: 30px;
+        max-width: 100%;
+    } 
+
+    h2{
+        font-size: 36;
+        line-height: 40px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #btn2{
+        display: none;
+    }
+
+    #header{
+        text-align: center;
+    }
+
+    #footer{
+        margin-top:-20px;
+    }
+
+    .btn{
+        width: 160.61px;
+        height: 36.41px;
+        margin-top: 60px;
+    }
+
+    p{
+        margin-bottom: 0;
+    }
+
+    #linkedin{
+        margin-left: 0;
+        margin-top: -150px;
+    }
+
+    .ctnt2{
+        margin-top: 40px ;
+    }
+}
